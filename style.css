@@ -1,0 +1,105 @@
+    body {
+        font-family: Arial, sans-serif;
+        color: #0c0d0e; 
+        background-color: #eceeef; 
+    }
+
+    header, .header-section {
+        background-image: url('img-1.jpg');
+        background-size: cover;
+        height: 600px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+
+    .btn-primary {
+        margin-top: 20px;
+        background-color: #c5c8ce; 
+        color: #0c0d0e; 
+    }
+
+    .btn-primary1 {
+        background: transparent !important;
+        color: #c5c8ce; 
+    }
+
+    #learn-more-section {
+        background-color: #d5cfcd; 
+    }
+
+    .col-md-6 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .social-icon {
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-text {
+        margin-top: 20px;
+        color: #0c0d0e; 
+    }
+
+    .transparent-navbar {
+        background: transparent !important;
+        border: none !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+
+    .transparent-navbar .navbar-nav .nav-link {
+        color: #0c0d0e !important; 
+    }
+
+    .transparent-navbar .navbar-toggler-icon {
+        background-color: #0c0d0e !important; 
+    }
+
+    .col-md-6 p {
+        text-align: justify;
+        color: #0c0d0e; 
+    }
+
+    #text-section {
+        margin-bottom: 60px;
+    }
+
+    .col-md-6 img {
+        height: 300px;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .col-md-6 p {
+        text-align: justify;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .transparent-dropdown .dropdown-menu {
+        background: transparent !important;
+        border: none !important;
+    }
+
+    
+    .transparent-dropdown .dropdown-item {
+        color: #0c0d0e !important; 
+    }
+
+    .dropdown-menu {
+        background: transparent !important;
+        border: none !important;
+    }
